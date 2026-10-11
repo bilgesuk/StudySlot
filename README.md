@@ -102,6 +102,7 @@ not a supported workload. Local data is unencrypted.
 | `tests/test_planner.py` | Algorithm, CLI lifecycle, and failure-mode tests |
 | `.gitignore` | Exclude generated data, Python caches, and the default report |
 | `README.md` | Setup, usage, design, limits, and submission checklist |
+| `contributions/` | Individual member details and actual contribution records |
 
 `data/` is created on the first successful default-path write and is not committed.
 
@@ -115,17 +116,25 @@ Tests use temporary directories and do not modify personal task data. They cover
 deadline ordering, splitting, capacity, excluded due dates, completed tasks, short
 horizons, malformed databases, invalid input, export protection, and task lifecycle.
 
-## Team and submission status
+## Team members
 
-This is an implementation draft, not a complete submission. Before submission:
+| Name | GitHub | Contributions |
+| --- | --- | --- |
+| Bilgesu Karakurum | [bilgesuk](https://github.com/bilgesuk) | [Contribution record](contributions/BILGESU_KARAKURUM_2309111044_bilgesuk.md) |
+| Ayşe Sude Şirin | [sudesirinn](https://github.com/sudesirinn) | [Contribution record](contributions/AYSE_SUDE_SIRIN_2309011078_sudesirinn.md) |
+| Arda Duman | [ardaduman001](https://github.com/ardaduman001) | [Contribution record](contributions/ARDA_DUMAN_2309111032_ardaduman001.md) |
+| Arian Haidary | [diabolic6767](https://github.com/diabolic6767) | [Contribution record](contributions/ARIAN_HAIDARY_2409015555_diabolic6767.md) |
+| Abderraouf Achour | [raouf0510](https://github.com/raouf0510) | [Contribution record](contributions/ABDERRAOUF_ACHOUR_2409115742_raouf0510.md) |
 
-- Each of the five members must document their actual work in
-  `contributions/NAME_SURNAME_STUDENTID_GITHUBUSERNAME.md`.
-- Explain specific changes, verification performed, and relevant commits/PRs.
-  Do not attribute another person's implementation to yourself.
-- Record any AI assistance according to the course's policy.
-- Prepare the English PPTX with actual code snippets and rehearse under two minutes.
-- Publish the reviewed repository publicly and submit its URL together with the PPTX.
+## Submission status
 
-Contribution files and the presentation are not included yet because actual
-member work and student details have not been supplied.
+The implementation is published at https://github.com/bilgesuk/StudySlot.
+An English PPTX draft has been prepared separately for the homework upload.
+The team completed documentation, input-validation, and scheduling reviews
+and discussed them verbally. Individual contribution files describe those
+reviews; Bilgesu records and integrates them in the repository. The presentation
+is being revised, and Arian's presentation and rehearsal work remains pending.
+
+The initial implementation, tests, documentation, and presentation draft were
+created with AI assistance. Team members should review and understand the work,
+and follow any applicable course disclosure requirements.
