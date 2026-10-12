@@ -58,6 +58,38 @@ class PlannerTests(unittest.TestCase):
                 make_plan([], date(2026, 10, 11), days, minutes)
         with self.assertRaises(ValueError):
             make_plan([], date.max, 2, 60)
+            def test_exact_daily_capacity(self):
+        tasks = [
+            task(1, "2026-10-14", 180),
+            task(2, "2026-10-13", 90),
+        ]
+
+        sessions, unscheduled = make_plan(
+            tasks, date(2026, 10, 11), 3, 90
+        )
+
+        self.assertEqual(
+            [(s["date"], s["id"], s["minutes"]) for s in sessions],
+            [
+                ("2026-10-11", 2, 90),
+                ("2026-10-12", 1, 90),
+                ("2026-10-13", 1, 90),
+            ],
+        )
+        self.assertEqual(unscheduled, [])
+
+    def test_completed_tasks_are_excluded(self):
+        tasks = [
+            task(1, "2026-10-14", 120, True),
+            task(2, "2026-10-14", 60),
+        ]
+
+        sessions, unscheduled = make_plan(
+            tasks, date(2026, 10, 11), 2, 60
+        )
+
+        self.assertEqual([s["id"] for s in sessions], [2])
+        self.assertEqual(unscheduled, [])
 
 
 class CLITests(unittest.TestCase):
