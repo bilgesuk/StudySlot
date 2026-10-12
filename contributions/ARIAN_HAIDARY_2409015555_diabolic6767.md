@@ -1,7 +1,7 @@
 # Arian Haidary
 
 - Student ID: 2409015555
-- GitHub: [diabolic6767](https://github.com/diabolic6767)
+- GitHub: [diabolic67](https://github.com/diabolic6767)
 
 ## Contribution status
 
