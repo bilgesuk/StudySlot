@@ -123,7 +123,7 @@ horizons, malformed databases, invalid input, export protection, and task lifecy
 | Bilgesu Karakurum | [bilgesuk](https://github.com/bilgesuk) | [Contribution record](contributions/BILGESU_KARAKURUM_2309111044_bilgesuk.md) |
 | Ayşe Sude Şirin | [sudesirinn](https://github.com/sudesirinn) | [Contribution record](contributions/AYSE_SUDE_SIRIN_2309011078_sudesirinn.md) |
 | Arda Duman | [ardaduman001](https://github.com/ardaduman001) | [Contribution record](contributions/ARDA_DUMAN_2309111032_ardaduman001.md) |
-| Arian Haidary | [diabolic6767](https://github.com/diabolic6767) | [Contribution record](contributions/ARIAN_HAIDARY_2409015555_diabolic6767.md) |
+| Arian Haidary | [diabolic67](https://github.com/diabolic6767) | [Contribution record](contributions/ARIAN_HAIDARY_2409015555_diabolic6767.md) |
 | Abderraouf Achour | [raouf0510](https://github.com/raouf0510) | [Contribution record](contributions/ABDERRAOUF_ACHOUR_2409115742_raouf0510.md) |
 
 ## Submission status
