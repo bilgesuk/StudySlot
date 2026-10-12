@@ -18,3 +18,13 @@ Review completion was reported by Bilgesu on October 11, 2026 following the
 team's verbal discussion. Bilgesu maintains the repository and records this
 review contribution on the member's behalf. No separate written review log or
 specific code change is attributed to this review.
+
+## Completed contribution: README feature summary
+
+On October 12, 2026, added the Key Features section to `README.md` (commit
+`779c6d0`). It summarizes deadline-aware planning, daily capacity, splitting
+work across days, unscheduled-work reporting, validated JSON storage, task
+completion and reopening, protected exports, and automated tests.
+
+During AI-assisted integration coordinated by Bilgesu, the assistant reviewed
+the summary against the application's existing behavior.

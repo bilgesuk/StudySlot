@@ -58,7 +58,8 @@ class PlannerTests(unittest.TestCase):
                 make_plan([], date(2026, 10, 11), days, minutes)
         with self.assertRaises(ValueError):
             make_plan([], date.max, 2, 60)
-            def test_exact_daily_capacity(self):
+
+    def test_exact_daily_capacity(self):
         tasks = [
             task(1, "2026-10-14", 180),
             task(2, "2026-10-13", 90),

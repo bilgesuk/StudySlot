@@ -30,3 +30,21 @@ line.
 Maintained the GitHub repository and coordinated the team review. Recorded
 member details and the completed documentation, input-validation, and scheduling
 reviews following the team's verbal discussion. Presentation work is ongoing.
+
+## Follow-up integration on October 12, 2026
+
+At my request, the assistant reviewed and integrated five team commits through
+`ca15673`: Sude's README feature summary (`779c6d0`), Abderraouf's CLI numeric
+validation (`d9ddc12`), and Arian's username updates and planning tests
+(`d147078`, `a1b6d06`, and `ca15673`).
+
+I requested the follow-up corrections. The assistant fixed the indentation of
+`test_exact_daily_capacity` and corrected Arian's GitHub profile URL targets in
+the README and contribution record. The assistant then ran
+`python3 -m unittest discover -s tests -v`; all 12 tests passed, and
+`git diff --check` reported no whitespace errors.
+
+I also requested updates to the README and individual contribution records to
+reflect the actual commits while retaining the earlier verbal reviews. These
+follow-up fixes and documentation updates are included together in this
+integration commit. Arian's presentation and rehearsal remain pending.
