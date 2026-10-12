@@ -4,6 +4,17 @@ StudySlot is a Python command-line study planner for students juggling several
 deadlines and a limited daily study budget. It turns task estimates into daily
 study sessions and explicitly reports work that could not be scheduled.
 
+## Key Features
+
+- Deadline-aware scheduling that prioritizes tasks by due date.
+- Configurable daily study time limits.
+- Automatic splitting of tasks across multiple days.
+- Clear reporting of unscheduled work and its reasons.
+- Persistent local JSON storage with input validation.
+- Task completion and reopening using stable IDs.
+- Exportable study plans without overwriting existing files.
+- Automated unit tests for scheduling and CLI behavior.
+
 ## Requirements and setup
 
 Python 3.10 or newer. No third-party packages, account, or network connection
