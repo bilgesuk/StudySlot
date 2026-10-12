@@ -9,11 +9,19 @@ from studyplanner.planner import clean_text, make_plan, parse_date, positive_int
 from studyplanner.storage import load, save
 
 
+
 def positive(value):
+    if not value.isascii() or not value.isdecimal():
+        raise argparse.ArgumentTypeError(
+            "Use a positive whole number."
+        )
     try:
         return positive_int(int(value))
     except ValueError:
-        raise argparse.ArgumentTypeError("Use a positive whole number.") from None
+        raise argparse.ArgumentTypeError(
+            "Use a positive whole number."
+        ) from None
+
 
 
 def calendar_date(value):
