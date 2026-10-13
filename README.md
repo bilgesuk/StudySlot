@@ -138,21 +138,25 @@ horizons, malformed databases, invalid input, export protection, and task lifecy
 | Bilgesu Karakurum | [bilgesuk](https://github.com/bilgesuk) | [Contribution record](contributions/BILGESU_KARAKURUM_2309111044_bilgesuk.md) |
 | Ayşe Sude Şirin | [sudesirinn](https://github.com/sudesirinn) | [Contribution record](contributions/AYSE_SUDE_SIRIN_2309011078_sudesirinn.md) |
 | Arda Duman | [ardaduman001](https://github.com/ardaduman001) | [Contribution record](contributions/ARDA_DUMAN_2309111032_ardaduman001.md) |
-| Arian Haidary | [diabolic67](https://github.com/diabolic67) | [Contribution record](contributions/ARIAN_HAIDARY_2409015555_diabolic6767.md) |
+| Arian Haidary | [diabolic67](https://github.com/diabolic67) | [Contribution record](contributions/ARIAN_HAIDARY_2409015555_diabolic67.md) |
 | Abderraouf Achour | [raouf0510](https://github.com/raouf0510) | [Contribution record](contributions/ABDERRAOUF_ACHOUR_2409115742_raouf0510.md) |
 
 ## Submission status
 
 The implementation is published at https://github.com/bilgesuk/StudySlot.
-An English PPTX draft has been prepared separately for the homework upload.
+The English presentation has been completed separately for the homework upload.
 The team completed documentation, input-validation, and scheduling reviews
 and discussed them verbally. Individual contribution files describe those
 reviews and the direct contributions made on October 12, 2026: Sude added the
 Key Features section, Abderraouf tightened CLI numeric validation, and Arian
-updated his displayed GitHub username and added two planning tests. Bilgesu
+updated his displayed GitHub username and added two planning tests. Arda directly
+updated his contribution record in commit `563ea45`, confirming his local
+input-validation review and test-suite verification. A follow-up review with
+Codex assistance clarified exit codes and the scope of non-ASCII numeric-input
+validation, and added independently checked command examples to his record. Bilgesu
 coordinates integration with AI assistance, including the follow-up test
-indentation and profile-link fixes. The presentation is being revised, and
-Arian's presentation and rehearsal work remains pending.
+indentation and profile-link fixes. On October 13, 2026, Bilgesu confirmed that
+presentation preparation is complete and Arian is ready to present.
 
 The initial implementation, tests, documentation, and presentation draft were
 created with AI assistance. Team members should review and understand the work,

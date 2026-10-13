@@ -29,7 +29,8 @@ line.
 
 Maintained the GitHub repository and coordinated the team review. Recorded
 member details and the completed documentation, input-validation, and scheduling
-reviews following the team's verbal discussion. Presentation work is ongoing.
+reviews following the team's verbal discussion. Presentation preparation was
+confirmed complete on October 13, 2026.
 
 ## Follow-up integration on October 12, 2026
 
@@ -47,4 +48,11 @@ the README and contribution record. The assistant then ran
 I also requested updates to the README and individual contribution records to
 reflect the actual commits while retaining the earlier verbal reviews. These
 follow-up fixes and documentation updates are included together in this
-integration commit. Arian's presentation and rehearsal remain pending.
+integration commit. At that time, Arian's presentation preparation was pending.
+
+## Follow-up integration on October 13, 2026
+
+I confirmed that presentation preparation is complete and Arian is ready to
+present. At my request, the assistant updated the README and contribution
+records, clarified Arda's validation documentation after reviewing commit
+`563ea45`, and corrected Arian's contribution filename and README link.
