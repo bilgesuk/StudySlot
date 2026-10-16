@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: bilgesuk/StudySlot
 spec:
-  type: other
-  lifecycle: unknown
-  owner: ctrl-z
+  type: cli
+  lifecycle: experimental
+  owner: group:default/ctrl-z
